@@ -73,6 +73,11 @@ Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pytest-cov-feedstock.sv
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/pytest-cov-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pytest-cov-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pytest-cov-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pytest-cov-feedstock/branch/master)
 
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-cov/badges/version.svg)](https://anaconda.org/conda-forge/pytest-cov)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pytest-cov/badges/downloads.svg)](https://anaconda.org/conda-forge/pytest-cov)
+
 
 Updating pytest-cov-feedstock
 =============================
