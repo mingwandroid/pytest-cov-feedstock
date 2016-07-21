@@ -1,4 +1,4 @@
-{% set version = "2.2.1" %}
+{% set version = "2.3.0" %}
 
 package:
   name: pytest-cov
@@ -6,8 +6,8 @@ package:
 
 source:
   fn: pytest-cov-{{version}}.tar.gz
-  url: https://pypi.python.org/packages/source/p/pytest-cov/pytest-cov-{{version}}.tar.gz
-  md5: d4c65c5561343e6c6a583d5fd29e6a63
+  url: https://pypi.io/packages/source/p/pytest-cov/pytest-cov-{{version}}.tar.gz
+  sha256: b079fa99d4dd4820ac31fe1863df4053eaff787f65dd04024bd57c2666c35ad4
 
 build:
     script: python setup.py install --single-version-externally-managed --record record.txt
