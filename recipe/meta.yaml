@@ -10,11 +10,11 @@ source:
   sha256: 53d4179086e1eec1c688705977387432c01031b0a7bd91b8ff6c912c08c3820d
 
 build:
-    script: python setup.py install --single-version-externally-managed --record record.txt
+    script: ${PYTHON} setup.py install --single-version-externally-managed --record record.txt
     number: 0
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
 
@@ -37,3 +37,4 @@ extra:
   recipe-maintainers:
     - dopplershift
     - nicoddemus
+    - mingwandroid
